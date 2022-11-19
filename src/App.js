@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import goat from "./image/image-qr-code.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="card">
+        <div className="qr">
+          <img src= {goat} alt="" className="picture" />
+        </div>
+        <div className="heading">
+          <h1 className="title">Improve your front-end skills by building projects</h1>
+        </div>
+        <div className="text">
+          <p className="description">
+Scan the QR code to visit front-end mentor and taking your coding skills to the next level
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
